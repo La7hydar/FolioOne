@@ -15,7 +15,7 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com" rel="preconnect">
   <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Poppins:wght@300;400;500;600;700;900&family=Raleway:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -26,26 +26,12 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: FolioOne
-  * Template URL: https://bootstrapmade.com/folioone-bootstrap-portfolio-website-template/
-  * Updated: Aug 23 2025 with Bootstrap v5.3.7
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="portfolio-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container position-relative d-flex align-items-center justify-content-between">
-
-      <!-- <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-      <img src="assets/img/logo.webp" alt="">
-      <h1 class="sitename">FolioOne</h1> 
-    </a> -->
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -54,19 +40,17 @@
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Projects</a></li>
           <li><a href="certificate.html" class="active">Certificate</a></li>
-         
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
 
-        <div class="header-social-links">
+      <div class="header-social-links">
         <a href="https://wa.me/6285751356119" class="whatsapp" target="_blank"><i class="bi bi-whatsapp"></i></a>
         <a href="https://www.linkedin.com/in/ahnaf-haidar-019182339" class="linkedin" target="_blank"><i class="bi bi-linkedin"></i></a>
         <a href="https://github.com/La7hydar" class="github" target="_blank"><i class="bi bi-github"></i></a>
         <a href="https://www.instagram.com/la_hydar" class="instagram" target="_blank"><i class="bi bi-instagram"></i></a>
       </div>
-
     </div>
   </header>
 
@@ -74,260 +58,489 @@
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
-      <section id="portfolio" class="portfolio section">
 
-        <!-- Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Certificate</h2>
-          <p>Some of my earned certificates that demonstrate my skills and achievements in data analysis, programming, and related fields.</p>
-        </div><!-- End Section Title -->
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Certificate</h2>
+        <p>Some of my earned certificates that demonstrate my skills and achievements in data analysis, programming, and related fields.</p>
+      </div><!-- End Section Title -->
 
-        <div class="container" data-aos="fade-up" data-aos-delay="100">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <!-- Filter Buttons -->
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="200">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-kaggle">Kaggle</li>
+            <li data-filter=".filter-dicoding">Dicoding</li>
+            <li data-filter=".filter-ibm">IBM</li>
+            <li data-filter=".filter-google">Google</li>
+            <li data-filter=".filter-others">Others</li>
+          </ul>
+
+          <!-- Portfolio Items -->
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <!-- Semua item tetap sama -->
+            <!-- start Dicoding Certificate Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dicoding">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/data-science.jpeg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/data-science.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="assets/img/certificate/data-science.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Data Science</h4>
+                  <p>Dicoding course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dicoding">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/data-science-indonesia.jpeg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/data-science-indonesia.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="assets/img/certificate/data-science-indonesia.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Data Science Indonesia</h4>
+                  <p>Dicoding course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </div>
+            </div><div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dicoding">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/python.jpeg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/python.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="assets/img/certificate/python.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Python</h4>
+                  <p>Dicoding course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-dicoding">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/python-indonesia.jpeg" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/python-indonesia.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="assets/img/certificate/python-indonesia.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Python Indonesia</h4>
+                  <p>Dicoding course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end Dicoding Certificate Item -->
+
+
+            <!-- start Kaggle Certificate Item -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kaggle">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/Ahnaf Haidar - Advanced SQL.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/Ahnaf Haidar - Advanced SQL.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/intro-to-sql" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Advanced SQL</h4>
+                  <p>Kaggle course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kaggle">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/Ahnaf Haidar - Data Cleaning.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/Ahnaf Haidar - Data Cleaning.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/data-cleaning" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Data Cleaning</h4>
+                  <p>Kaggle course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
+                  </div>
+                </div>
+              </div>
+            </div>
             
-
-            <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="300">
-
-              <!-- Data Analysis -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analysis">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/data-science.jpeg" alt="Portfolio Item" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/data-science.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="assets/img/certificate/data-science.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kaggle">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/Ahnaf Haidar - Data Visualization.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/Ahnaf Haidar - Data Visualization.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/data-visualization" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Data Science</h4>
-                    <p>Dicoding course</p>
-                    <div class="portfolio-tags">
-                      <span>Analysis</span>
-                      <span>Python</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Data Visualization</h4>
+                  <p>Kaggle course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
                   </div>
                 </div>
               </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analysis">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/data-science-indonesia.jpeg" alt="Sales Forecast Dashboard" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/data-science-indonesia.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="assets/img/certificate/data-science-indonesia.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kaggle">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/Ahnaf Haidar - Intro to Programming.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/Ahnaf Haidar - Intro to Programming.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/intro-to-programming" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Data Science in Indonesian</h4>
-                    <p>Dicoding course</p>
-                    <div class="portfolio-tags">
-                      <span>Data</span>
-                      <span>Python</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Intro to programming</h4>
+                  <p>kaggle course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
                   </div>
                 </div>
               </div>
-
-               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analysis">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/python.jpeg" alt="Sales Forecast Dashboard" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/python.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="assets/img/certificate/python.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kaggle">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/Ahnaf Haidar - Pandas.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/Ahnaf Haidar - Pandas.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/pandas" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Python</h4>
-                    <p>Dicoding course</p>
-                    <div class="portfolio-tags">
-                      <span>Analysis</span>
-                      <span>Python</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Pandas</h4>
+                  <p>Kaggle course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
                   </div>
                 </div>
               </div>
-
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analysis">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/python-indonesia.jpeg" alt="Sales Forecast Dashboard" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/python-indonesia.jpeg" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="assets/img/certificate/python-indonesia.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            </div>
+            
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kaggle">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/Ahnaf Haidar - Python.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/Ahnaf Haidar - Python.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/python" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Dicoding course</h4>
-                    <div class="portfolio-tags">
-                      <span>Analysis</span>
-                      <span>Python</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Python</h4>
+                  <p>Kaggle course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
                   </div>
                 </div>
               </div>
+            </div>
+            <!-- end Kaggle Certificate Item -->
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-analysis">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/Ahnaf Haidar - Intro to Programming.png" alt="Sales Forecast Dashboard" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/Ahnaf Haidar - Intro to Programming.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/intro-to-programming" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <!-- start IBM Certificate Items -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Data Analysis with Python.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Data Analysis with Python.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/N6HW8EWXKKR3" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Intro to Programming</h4>
-                    <p>kaggle course</p>
-                    <div class="portfolio-tags">
-                      <span>Analysis</span>
-                      <span>Python</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Data Analysis with Python</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Analysis</span>
+                    <span>Python</span>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!-- Visualization -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-visualization">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/Ahnaf Haidar - Python.png" alt="Portfolio Item" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/Ahnaf Haidar - Python.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/python" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Data Analyst Career Guide.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Data Analyst Career Guide.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://coursera.org/share/bbd60e522dc6db836634113468d97875" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>python</h4>
-                    <p>python</p>
-                    <div class="portfolio-tags">
-                      <span>Visualization</span>
-                      <span>python</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Data Analyst Career Guide</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>data analysis</span>
+                    <span>IBM</span>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-visualization">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/Ahnaf Haidar - Pandas.png" alt="Portfolio Item" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/Ahnaf Haidar - Pandas.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/pandas" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Data Visualization and Dashboards with Excel.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Data Visualization and Dashboards with Excel.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/76Z9WU9W8ELY" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>pandas</h4>
-                    <p>kaggle course</p>
-                    <div class="portfolio-tags">
-                      <span>Visualization</span>
-                      <span>python</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Data Visualization and Dashboards</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Visualization</span>
+                    <span>Excel</span>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-visualization">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/Ahnaf Haidar - Data Visualization.png" alt="Portfolio Item" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/Ahnaf Haidar - Data Visualization.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/data-visualization" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Databases and SQL for Data Science with Python.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Databases and SQL for Data Science with Python.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/2GBPRD3UA90X?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Spotify Analysis Dashboard</h4>
-                    <p>Tableau Visualization</p>
-                    <div class="portfolio-tags">
-                      <span>Visualization</span>
-                      <span>Tableau</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Databases and SQL</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-visualization">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/Ahnaf Haidar - Advanced SQL.png" alt="Portfolio Item" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/Ahnaf Haidar - Advanced SQL.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/advanced-sql" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Enhance your Data Analytics Career.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Enhance your Data Analytics Career.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://coursera.org/share/39e399e57c4436e9270b6a49b7f26057" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Advanced SQL</h4>
-                    <p>data analysis</p>
-                    <div class="portfolio-tags">
-                      <span>sql</span>
-                      <span>database</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Enhance your Data Analytics Career</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
                   </div>
                 </div>
               </div>
+            </div>
 
-              <!-- SQL & Databases -->
-              <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sql">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/Ahnaf Haidar - Data Cleaning.png" alt="Portfolio Item" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/Ahnaf Haidar - Data Cleaning.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="https://www.kaggle.com/learn/certification/ahnafhaidar/data-cleaning" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Excel Basics for Data Analysis.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Excel Basics for Data Analysis.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/52YL40RZBTH6?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Data Cleaning</h4>
-                    <p>kaggle course</p>
-                    <div class="portfolio-tags">
-                      <span>python</span>
-                      <span>Database</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Excel Basics for Data Analysis</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
                   </div>
                 </div>
               </div>
+            </div>
 
-               <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-sql">
-                <div class="portfolio-card">
-                  <div class="portfolio-img">
-                    <img src="assets/img/certificate/data science and analysis.png" alt="Portfolio Item" class="img-fluid">
-                    <div class="portfolio-overlay">
-                      <a href="assets/img/certificate/data science and analysis.png" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
-                      <a href="assets/img/certificate/certificate data science & analythic.pdf" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
-                    </div>
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM intro to Data Analyst.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM intro to Data Analyst.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/OQOHNQK733CI?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
                   </div>
-                  <div class="portfolio-info">
-                    <h4>Store Database Management</h4>
-                    <p>SQL & Database Optimization</p>
-                    <div class="portfolio-tags">
-                      <span>SQL</span>
-                      <span>Database</span>
-                    </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Intro to Data Analyst</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
                   </div>
                 </div>
               </div>
-            </div><!-- End Portfolio Items Container -->
-          </div>
+            </div>
 
-         
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Python for Data Science, AI & Development.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Python for Data Science, AI & Development.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/NRG09ZTXA3F8?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>IBM Python for Data Science, AI & Development</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-ibm">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat IBM/IBM Python Project for Data Science.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat IBM/IBM Python Project for Data Science.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/2RG06MVYMSRR?utm_source%3Dandroid%26utm_medium%3Dcertificate%26utm_content%3Dcert_image%26utm_campaign%3Dsharing_cta%26utm_product%3Dcourse" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>IBM Python Project for Data Science</h4>
+                  <p>IBM course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        </div>
+            <!-- end IBM Certificate Items -->
 
-      </section><!-- /Portfolio Section -->
+            <!-- start Google Certificate Items  -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-google">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat google/Google - foundation of data science.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat google/Google - foundation of data science.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://coursera.org/share/68ff8563b0f2eb44317566c311adeefa" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Google - Foundation of Data Science</h4>
+                  <p>Google course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
 
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-google">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/sertifikat google/Google - Get Started with Python.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/sertifikat google/Google - Get Started with Python.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/VRJU2JFJZDQE" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Google - Get Started with Python</h4>
+                  <p>Google course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end Google Certificate Items  -->
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-others">
+              <div class="portfolio-card">
+                <div class="portfolio-img">
+                  <img src="assets/img/certificate/data science and analysis.png" alt="Portfolio Item" class="img-fluid">
+                  <div class="portfolio-overlay">
+                    <a href="assets/img/certificate/certificate data science & analythic.pdf" class="glightbox portfolio-lightbox"><i class="bi bi-plus"></i></a>
+                    <a href="1" class="portfolio-details-link" target="_blank"><i class="bi bi-link"></i></a>
+                  </div>
+                </div>
+                <div class="portfolio-info">
+                  <h4>Google - Get Started with Python</h4>
+                  <p>Google course</p>
+                  <div class="portfolio-tags">
+                    <span>Database</span>
+                    <span>SQL</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Tambahkan item lain kamu di sini seperti sebelumnya -->
+            <!-- ... -->
+          </div><!-- End isotope-container -->
+        </div><!-- End isotope-layout -->
+      </div><!-- End container -->
 
     </section><!-- /Portfolio Section -->
-
 
   </main>
 
   <footer id="footer" class="footer">
-
     <div class="container">
       <div class="copyright text-center ">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">FolioOne</strong> <span>All Rights Reserved<br></span></p>
@@ -339,14 +552,9 @@
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -371,5 +579,4 @@
   <script src="assets/js/main.js"></script>
 
 </body>
-
 </html>
