@@ -1,16 +1,14 @@
 # 🌐 FolioOne - Personal Portfolio Website
 
-Personal Portfolio | Data Analyst | Personal Branding | Web Development
+HTML | CSS | JavaScript | Personal Branding | Data Analytics Portfolio
 
 ## 📌 Project Overview
 
-![FolioOne Portfolio](https://github.com/La7hydar/FolioOne/blob/b9b3497bdd40b808dd65f9777f4f304190c087e5/Screenshot%202026-06-03%20104120.png)
+![FolioOne](https://raw.githubusercontent.com/La7hydar/FolioOne/b9b3497bdd40b808dd65f9777f4f304190c087e5/Screenshot%202026-06-03%20104120.png)
 
-FolioOne is a personal portfolio website created to showcase my professional profile, certifications, technical skills, achievements, and project portfolio.
+FolioOne is my personal portfolio website designed to introduce who I am, showcase my certifications, highlight my skills, and present projects that reflect my journey in Data Analytics and technology.
 
-The website serves as a central platform where visitors, recruiters, and collaborators can learn more about my background, explore my work, and understand my journey in Data Analytics and technology.
-
-With more than three years of continuous learning in Data Analytics, this portfolio reflects both my technical growth and commitment to lifelong learning.
+With more than three years of learning and practicing Data Analytics, this website serves as a professional platform where visitors, recruiters, and collaborators can explore my background, achievements, and portfolio.
 
 ---
 
@@ -18,19 +16,19 @@ With more than three years of continuous learning in Data Analytics, this portfo
 
 ### Personal Branding
 
-Build a professional online presence that represents my skills, experience, and career aspirations.
+Build a professional online presence that represents my skills, interests, and career goals.
 
 ### Portfolio Showcase
 
-Present projects that demonstrate analytical thinking, problem-solving abilities, and technical expertise.
+Present projects that demonstrate analytical thinking, technical abilities, and problem-solving skills.
 
-### Certification Repository
+### Certification Showcase
 
-Display certifications and learning achievements obtained through various courses and training programs.
+Display certifications earned throughout my learning journey in Data Analytics and related fields.
 
 ### Professional Introduction
 
-Provide visitors with a concise overview of who I am, what I do, and what I am passionate about.
+Provide visitors with a clear overview of who I am and what I am passionate about.
 
 ---
 
@@ -38,84 +36,69 @@ Provide visitors with a concise overview of who I am, what I do, and what I am p
 
 ### 👨‍💻 About Me
 
-A personal introduction highlighting my background, interests, and learning journey.
+Personal profile and background information.
 
 ### 📜 Certifications
 
-A dedicated section showcasing certifications earned throughout my Data Analytics journey.
+Collection of certificates and learning achievements.
 
-### 📊 Project Portfolio
+### 📊 Portfolio Projects
 
-Collection of projects demonstrating practical applications of data analysis, visualization, and business intelligence.
+Projects related to Data Analytics, Business Intelligence, and technology.
 
-### 🛠️ Skills Showcase
+### 🛠️ Skills Section
 
-Presentation of technical and analytical skills acquired through study and project experience.
+Technical and analytical skills acquired through learning and project experience.
 
 ### 📱 Responsive Design
 
-Optimized viewing experience across desktop, tablet, and mobile devices.
+Optimized for desktop, tablet, and mobile devices.
 
 ### 📬 Contact Information
 
-Easy ways for visitors, recruiters, and collaborators to connect with me.
+Easy ways to connect and collaborate.
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Front-End Development
-
 * HTML5
 * CSS3
 * JavaScript
-
-### Development Tools
-
 * Git
 * GitHub
-* VS Code
-
-### Design Principles
-
-* Responsive Web Design
-* User-Centered Design
-* Modern Portfolio Layout
-* Accessibility Considerations
 
 ---
 
 ## 📊 Portfolio Highlights
 
-The website showcases projects related to:
+Projects featured on this website include:
 
 * Data Analysis
-* Data Cleaning
 * Data Visualization
 * Dashboard Development
 * Business Intelligence
-* Data-Driven Decision Making
 * Exploratory Data Analysis (EDA)
+* Data Cleaning
+* Data Storytelling
 
 ---
 
-## 📜 Certifications & Learning
+## 📜 Certifications
 
-This portfolio includes certifications obtained through continuous learning in:
+This portfolio showcases certifications earned through continuous learning in:
 
 * Data Analytics
 * Business Intelligence
 * Data Visualization
-* Excel Analytics
+* Excel
 * SQL
 * Statistics
 * Data-Driven Decision Making
 
-The certifications reflect my commitment to continuously improving analytical and technical capabilities.
-
 ---
 
-## 🚀 How to Run Locally
+## 🚀 How to Run
 
 ### Clone Repository
 
@@ -123,13 +106,11 @@ The certifications reflect my commitment to continuously improving analytical an
 git clone https://github.com/La7hydar/FolioOne.git
 ```
 
-### Open Project Directory
+### Open Project
 
 ```bash
 cd FolioOne
 ```
-
-### Launch Website
 
 Open:
 
@@ -137,7 +118,7 @@ Open:
 index.html
 ```
 
-or use a local server such as VS Code Live Server.
+Or run the project using VS Code Live Server.
 
 ---
 
@@ -157,38 +138,37 @@ FolioOne/
 
 ---
 
-## 📈 Purpose of This Portfolio
+## 📈 Purpose
 
-This website was developed to:
+This website was built to:
 
 * Introduce myself professionally.
-* Showcase projects and achievements.
-* Demonstrate technical capabilities.
-* Present certifications and learning progress.
+* Showcase certifications and achievements.
+* Present portfolio projects.
+* Demonstrate technical skills.
 * Create a centralized portfolio for recruiters and collaborators.
 
 ---
 
 ## 👨‍💻 Author
 
-### Ahnaf Haidar
+**Ahnaf Haidar**
 
 Aspiring Data Analyst with more than three years of learning experience in Data Analytics, Business Intelligence, and Data Visualization.
 
-Areas of Interest:
+### Areas of Interest
 
 * Data Analytics
 * Business Intelligence
 * Data Visualization
 * Dashboard Development
 * Data Storytelling
-* Technology & Innovation
+* Technology
 
-GitHub:
-https://github.com/La7hydar
+GitHub: https://github.com/La7hydar
 
 ---
 
 ## ⭐ Support
 
-If you find this portfolio inspiring or useful, feel free to give the repository a star.
+If you find this project interesting, consider giving it a star on GitHub.
